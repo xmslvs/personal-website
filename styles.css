@@ -46,6 +46,12 @@ nav a{
     max-height:100%;
     padding: 1%;
     overflow:auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#content::-webkit-scrollbar {
+    display: none;
 }
 
 h1{
