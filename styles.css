@@ -70,3 +70,10 @@ a{
 a:hover, #current{
     color:rgb(0, 141, 106)
 }
+
+.section{
+    border:0;
+    border-bottom:1px;
+    border-color:rgb(155, 155, 155);
+    border-style:solid;
+}
