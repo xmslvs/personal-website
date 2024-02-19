@@ -1,0 +1,32 @@
+html{
+    background-color: rgb(200,200,200);
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+body{
+    display:inherit;
+    width:30em;
+    height:15em;
+    align-items:stretch;
+    justify-content:space-between;
+}
+
+#links{
+    display:inherit;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1{
+    margin:0;
+    font-family: "Monteserrat", sans-serif;
+}
+
+#image{
+    width:15em;
+    background-color: aqua;
+}
