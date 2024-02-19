@@ -5,28 +5,59 @@ html{
     display:flex;
     align-items:center;
     justify-content:center;
+    font-family: "Montserrat", sans-serif;
 }
 
 body{
-    display:inherit;
-    width:30em;
-    height:15em;
-    align-items:stretch;
-    justify-content:space-between;
-}
-
-#links{
+    width:30%;
+    max-width:40vh;
     display:inherit;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 h1{
     margin:0;
-    font-family: "Monteserrat", sans-serif;
+    font-size:3em;
+    font-weight:200;
+    color:rgb(88, 88, 88);
 }
 
-#image{
-    width:15em;
-    background-color: aqua;
+#image {
+    background-image:url(inanis.png);
+    background-size:cover;
+    width:100%;
+    height:30vw;
+    max-height:40vh;
 }
+
+#titleAndLinks {
+    width:100%;
+    display:inherit;
+    margin:0;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+
+#title{
+    width:60%;
+    align-content:start;
+}
+
+#links{
+    height:100%;
+    display:inherit;
+    flex-direction: column;
+}
+
+a{
+    font-size:1em;
+    font-weight:300;
+    color:rgb(48, 48, 48);
+    text-decoration:none;
+}
+
+a:hover{
+    color:rgb(0, 141, 106)
+}
+
