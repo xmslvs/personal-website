@@ -1,2 +1,2 @@
 # Personal Website
-Website showcasing personal work, and blog.
+Website showcasing personal work (and blog).
