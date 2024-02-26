@@ -83,3 +83,7 @@ a:hover, #current{
     border-color:rgb(155, 155, 155);
     border-style:solid;
 }
+
+.section img{
+    max-width: 100%;
+}
