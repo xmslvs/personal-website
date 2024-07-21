@@ -91,3 +91,32 @@ a:hover, #current{
 .section img{
     max-width: 100%;
 }
+
+#darkModeToggle{
+    position:fixed;
+    top:3%;
+    right:3%;
+    font-size:1em;
+    font-weight:300;
+    color:rgb(48, 48, 48);
+}
+
+.dark{
+    background-color: rgb(50,50,50);
+  }
+
+.dark h1{
+    color: rgb(180, 180, 180)
+}
+
+.dark a{
+    color:rgb(0, 206, 154)
+}
+
+.dark nav a, .dark p, .dark #darkModeToggle{
+    color: rgb(220, 220, 220)
+}
+
+.dark a:hover, .dark #current{
+    color:rgb(0, 240, 180)
+}
