@@ -83,6 +83,14 @@ a:hover{
     max-width: 100%;
 }
 
+#languageToggle{
+    position:relative;
+    text-align:end;
+    font-size:1em;
+    font-weight:300;
+    color:rgb(48, 48, 48);
+}
+
 #darkModeToggle{
     position:fixed;
     top:3%;
@@ -90,6 +98,14 @@ a:hover{
     font-size:1em;
     font-weight:300;
     color:rgb(48, 48, 48);
+}
+
+.dualLanguage{
+    border-width:1px;
+    border-style: dashed;
+    margin:1% 0px;
+    padding:1%;
+    border-color: rgb(48, 48, 48);
 }
 
 .dark{
@@ -104,10 +120,22 @@ a:hover{
     color:rgb(0, 206, 154)
 }
 
-.dark nav a, .dark p, .dark #darkModeToggle{
+.dark nav a, .dark p, .dark #darkModeToggle, .dark #languageToggle{
     color: rgb(220, 220, 220)
+}
+
+.dark .dualLanguage{
+    border-color: rgb(220, 220, 220);
 }
 
 .dark a:hover, .dark #current{
     color:rgb(0, 240, 180)
+}
+
+.invisibleOnLoad{
+    display:none
+}
+
+.quote{
+    text-align: center;
 }
