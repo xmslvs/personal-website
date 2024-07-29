@@ -5,7 +5,7 @@ html{
     display:flex;
     align-items:center;
     justify-content:center;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", "Noto Sans JP", sans-serif;
 }
 
 body{
